@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* Make .dark class at <html> cascade styling */
+@custom-variant dark (&:where(.dark, .dark *));
